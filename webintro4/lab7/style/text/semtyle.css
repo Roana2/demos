@@ -1,0 +1,35 @@
+header h1, footer h1{
+  text-align:center;
+  background-color: #cccccc ;
+}
+header ul li{
+display: inline;
+padding: 5px;
+}
+
+header ul li a {
+  text-decoration: none;
+}
+
+section{
+float: right;
+width: 75% ;
+}
+aside {
+  float: left;
+  width: 25%;
+
+}
+
+.clearfix:before {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+
+footer {
+    text-align: center;
+}

@@ -1,0 +1,42 @@
+div {
+    border: 10px solid #303030;
+    width: 400px;
+    background-color: #444342;
+}
+
+
+h2{
+    color: #A5A4A4;
+}
+
+dt{
+    color: #CCC6C2;
+}
+
+dd{
+    padding-left: 80px;
+    margin-top: -13px;
+    margin-bottom: 10px;
+}
+.patr{
+    color: #F2EF83;
+}
+.noct{
+    color: #F40F25;
+    font-weight: bold;
+}
+.der{
+    color: #F2ED97;
+}
+.res{
+    color: #D3CDC9;
+}
+.last{
+    color: #D3CDC9;
+}
+.link{
+    color: #F2ED97;
+}
+.status{
+    color: #E2832D;
+}

@@ -1,0 +1,4 @@
+AuthUserFile "C:\web4\demos\.htpasswd"
+AuthName "Masaj"
+AuthType Basic
+require user oana
