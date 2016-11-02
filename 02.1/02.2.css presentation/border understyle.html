@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Borders understayle</title>
+    <style>
+
+        .box{
+            height: 500px;
+            width: 25%;
+            background-color: #ffcc66;
+            padding: 5px;
+            margin: 15px;
+            -moz-box-shadow: 10px 10px 5px #4481d5;
+            -webkit-box-shadow: 10px 10px 5px aquamarine ;
+            box-shadow:10px 10px 5px #4481d5;
+        }
+        .left-floated{
+            float:left;
+        }
+        .corner-radius{
+            border:18px solid #ffcc66;
+            border-radius: 15px;
+        }
+        .gradient-border{
+            border:10px solid #F40F25;
+            -moz-border-bottom-colors: #ffcc66 #E2832D #ffff00 #0f4d85 #add8e6 #00ff00 #F2ED97;
+            -moz-border-top-colors: #ffcc66 #E2832D #ffff00 #0f4d85 #add8e6 #00ff00 #F2ED97;
+            -moz-border-left-colors: blanchedalmond #0000FF #ccffcc #00ff00 #000000 #ffff00 #0f4d85;
+            -moz-border-right-colors: blanchedalmond #0000FF #ccffcc #00ff00 #000000 #ffff00 #0f4d85;
+        }
+    </style>
+</head>
+<body>
+<div class="box gradient-border left-floated"></div>
+<div class="box corner-radius gradient-border left-floated"></div>
+<div class="corner-raius box left-floated"></div>
+</body>
+</html>

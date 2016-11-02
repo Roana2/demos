@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        input[type=button]{
+            width: 40px;
+        }
+    </style>
+</head>
+<body>
+<h1>in-browser calculator</h1><form name="calculator"><table border=4>
+<tr>
+    <td>
+    <input type="text" name="input" size="20" onkeypress="return event.charCode>= 48 && event.charCode <= 57">
+    <br>
+    </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="button" name="one" value="1" onclick="calculator.input.value +='1'">
+            <input type="button" name="two" value="2" onclick="calculator.input.value +='2'">
+            <input type="button" name="three" value="3" onclick="calculator.input.value +='3'">
+            <input type="button" name="plus" value="+" onclick="calculator.input.value +='+'">
+            <br>
+            <input type="button" name="four" value="4" onclick="calculator.input.value +='4'">
+            <input type="button" name="five" value="5" onclick="calculator.input.value +='5'">
+            <input type="button" name="six" value="6" onclick="calculator.input.value +='6'">
+            <input type="button" name="minus" value="-" onclick="calculator.input.value +='-'">
+            <br>
+            <input type="button" name="seven" value="7" onclick="calculator.input.value +='7'">
+            <input type="button" name="eight" value="8" onclick="calculator.input.value +='8'">
+            <input type="button" name="nine" value="9" onclick="calculator.input.value +='9'">
+            <input type="button" name="times" value="x" onclick="calculator.input.value +='*'">
+            <br>
+            <input type="button" name="clear" value="C" onclick="calculator.input.value =''">
+            <input type="button" name="zero" value="0" onclick="calculator.input.value +='0'">
+            <input type="button" name="doIT" value="=" onclick="calculator.input.value = eval(calculator.input.value)">
+            <input type="button" name="div" value="/" onclick="calculator.input.value +='/'">
+        </td>
+    </tr>
+</form>
+</body>
+</html>
